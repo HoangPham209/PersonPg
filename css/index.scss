@@ -1,0 +1,28 @@
+// SCSS SYNTAX
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(85, 164, 255);
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li { display: inline-block; }
+  
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+header{
+  margin-left: 20px;
+  margin-right: 20px;
+}
