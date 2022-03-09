@@ -15,11 +15,26 @@ header#webHead {
     background-color: #212121;
     /* margin:20px; */
 }
+
+.bigHero h1{
+    font-size: 45px;
+}
+
 .bigHero p{
-    margin-right: 10vw;
-    margin-left: 10vw;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-right: 5vw; 
+    margin-left: 5vw;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 950px) {
+    .bigHero p{
+        margin-right: 10vw; 
+        margin-left: 10vw;
+        margin-top: 5vh;
+        padding-bottom: 5vh;
+    }
 }
 
 #resumeButton{
