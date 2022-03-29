@@ -29,6 +29,13 @@ header#webHead {
     font-size: 25px;
 }
 
+#Code_grid{
+    /* background-color:rgb(70, 135, 255); */
+    width: 100% !important;
+}
+
+div#Code_grid {}
+
 .animate {
     animation: slide-in 1s both;
   }
