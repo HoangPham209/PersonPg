@@ -2,7 +2,8 @@
 
 body {
   font: 100% Helvetica, sans-serif;
-  color: rgb(85, 164, 255);
+  /* main site blue */
+  color: rgb(70, 135, 255); 
 }
 
 /* check for web width and things - bigger than tablets*/
@@ -27,6 +28,20 @@ header#webHead {
     padding-bottom: 5vh;
     font-size: 25px;
 }
+
+.animate {
+    animation: slide-in 1s both;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
 
 @media only screen and (max-width: 950px) {
     .bigHero p{
