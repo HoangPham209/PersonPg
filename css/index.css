@@ -29,9 +29,18 @@ header#webHead {
     font-size: 25px;
 }
 
+.piece_descr{
+  height: 15vh;
+}
+
 #Code_grid{
     /* background-color:rgb(70, 135, 255); */
     width: 100% !important;
+}
+
+.code_icon{
+  width: 75px;
+  height: 75px;
 }
 
 div#Code_grid {}
