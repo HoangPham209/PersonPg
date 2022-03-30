@@ -1,6 +1,23 @@
+
+body {
+    font: 100% Helvetica, sans-serif;
+    /* main site blue */
+    color: rgb(123 222 123);
+}
+
 header#webHead {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+a.nav-item:hover{
+    color: #69c6ff;
+    background-color: darkblue;
+  }
+
+#projHead{
+    margin-left: 20%;
+    margin-right: 25%;
 }
 
 .projIntro{
@@ -10,6 +27,27 @@ header#webHead {
     bottom: 10px;
 }
 
+/* Earmark CSS section */
+
 .vid_sect{
-    height: 75vh;
+    width: 30vw;
 }
+
+img.earmark_pics {
+    width: 25vw;
+}
+
+#resumeButton{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 15px;
+}
+
+.earmark_pics_div{
+
+}
+

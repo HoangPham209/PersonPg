@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="css\portfolio.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/portfolio.css" rel="stylesheet" type="text/css"/>
     <!-- <link href="css\index.css" rel="stylesheet" type="text/css"/> -->
 
     <title>Portfolio project Sample</title>
@@ -22,7 +22,7 @@
         </a>
   
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../index.html" class="nav-link" aria-current="page">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link">About</a></li>
         </ul>
       </header>
@@ -37,12 +37,18 @@
 <div class="px-4 pt-5 my-5 text-center border-bottom"> 
    <!-- onload="animation()"> -->
     <h1 class="display-4 fw-bold">Project name</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="projIntro lead mb-5">This is the description for the project.
+    <div id="projHead" class="row row-cols-1 row-cols-sm-2 col-lg-9 my-5 align-items-center">
+      <div class="pr-2" style="width: 25vw;"> 
+        <!-- class="col-lg-3" -->
+        <h3> Postion</h3>
+        <span> mth 202x - mth 202x  </span>
+      </div>
+      <div>
+      <p class="projIntro lead">This is the description for the project. It was on iOS  
         Nam dictum augue lorem, at pellentesque quam molestie eu. Integer cursus tortor quis molestie aliquet. 
         Nullam in efficitur purus, vel porttitor quam. Ut sit amet turpis nec risus suscipit ullamcorper.
         Ut varius vel urna ac tincidunt. Quisque molestie, massa a convallis placerat,
-      </p>
+      </p></div>
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
       <div class="container px-5">

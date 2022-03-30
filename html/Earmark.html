@@ -7,8 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="css\portfolio.css" rel="stylesheet" type="text/css"/>
-    <!-- <link href="css\index.css" rel="stylesheet" type="text/css"/> -->
+    <link href="../css/portfolio.css" rel="stylesheet" type="text/css"/>
+    <style>
+      body{
+          color: rgb(123 222 123);
+      }
+    </style>
 
     <title>Portfolio project Sample</title>
   </head>
@@ -22,7 +26,7 @@
         </a>
   
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../index.html" class="nav-link" aria-current="page">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link">About</a></li>
         </ul>
       </header>
@@ -37,13 +41,20 @@
 <div class="px-4 pt-5 my-5 text-center border-bottom"> 
    <!-- onload="animation()"> -->
     <h1 class="display-4 fw-bold">Earmark</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="projIntro lead mb-5">This is the description for the project.
+    <div id="projHead" class="row row-cols-1 row-cols-sm-2 col-lg-9 my-5 align-items-center">
+      <div class="pr-2" style="width: 25vw;"> 
+        <!-- class="col-lg-3" -->
+        <h3> Front-End Developer and Designer</h3>
+        <span> Jan 2020 - Aug 2020  </span>
+      </div>
+      <div>
+      <p class="projIntro lead">This is the description for the project.
         Nam dictum augue lorem, at pellentesque quam molestie eu. Integer cursus tortor quis molestie aliquet. 
         Nullam in efficitur purus, vel porttitor quam. Ut sit amet turpis nec risus suscipit ullamcorper.
         Ut varius vel urna ac tincidunt. Quisque molestie, massa a convallis placerat,
       </p>
     </div>
+  </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
       <div class="container px-5">
         <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-5" alt="Example image" width="700" height="500" loading="lazy">
@@ -56,17 +67,21 @@
       </div>
       
     <div class="row row-cols-1 row-cols-md-2 row-cols-md-3 g-4 py-5">
-      <div class="col d-flex align-items-start">  
-        <img src="assets/earmark_1.png" alt="spending wheel screenshot" height="20vh">
-      </div>
-    <div>
-      <img src="assets/earmark_2.png" alt="profile screenshot" height="20vh">
+      <div class="earmark_pics_div "> 
+        <!-- row d-flex align-items-start">   -->
+        <img class="earmark_pics" src="../assets/earmark_1.png" alt="spending wheel screenshot">
+        <div>
+          Spending Wheel
+        </div>
+    </div>
+    <div class="earmark_pics_div">
+      <img class="earmark_pics" src="../assets/earmark_2.png" alt="profile screenshot">
       <div>
         Profile
       </div>
     </div>
-    <div>
-      <img src="assets/earmark_3.png" alt="Front page screenshot" height="20vh">
+    <div class="earmark_pics_div">
+      <img class="earmark_pics" src="../assets/earmark_3.png" alt="Front page screenshot" >
       <div>
         Front page 
       </div>
@@ -74,26 +89,26 @@
     </div>
 
       <!-- Start videos? -->
-      <div class="vid_sect container px-4 py-5 overflow-hidden" style="max-height: 30vh;">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-          <div class="col d-flex align-items-start">  
-            <video height="400" controls> 
-            <!-- controls width="250"> -->          
-              <source src="assets/videos/Edit Budget-1.m4v"
-                      type="video/m4v">
+      <!-- <div class="vid_sect container px-4 py-5 overflow-scrol" style="max-height: 75vh;"> -->
+        <div class="vid_sect row row-cols-lg-1 row-cols-lg-2 g-4 py-5">
+          <div class="col d-flex align-items-start mx-2">  
+            <video height="600" controls> 
+                 
+              <source src="../assets/videos/Edit Budget-1.webm"
+                      type="video/webm"> 
               Sorry, your browser doesn't support embedded videos.
           </video>
           </div>
-          <div> 
-            <video height="100" controls> 
-              <!-- controls width="250"> -->          
-                <source src="assets/videos/Preview Of Screens-2.webm"
+          <div  class="col d-flex align-items-end"> 
+            <video height="600" controls> 
+                       
+                <source src="../assets/videos/Preview Of Screens-2.webm"
                         type="video/webm">
                 Sorry, your browser doesn't support embedded videos.
             </video>
           </div>
         </div>
-      </div>
+      
   </div>
 <!-- Option 2: Separate Popper and Bootstrap JS -->
 

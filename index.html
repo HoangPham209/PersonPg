@@ -16,7 +16,7 @@
 
     <!-- simple header 1 -->
     <header id ="webHead" class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <a href="/" class="d-flex justify-content-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <!-- image for logo -->
         <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
         <span class="fs-4">Hoang Pham</span>
@@ -44,25 +44,27 @@
       <div class="col-lg-6 mx-auto">
         <p class="mb-4">From Hanoi, Vietnam. My passion is to learn more and go in depth into different fields. Currently aiming to work in software engineering field or app dev. 
           Also an International Student double majoring in Computer Science and Interactive Media. </p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <div class="gap-2 d-sm-flex justify-content-sm-center">
           <button type="button" class="btn btn-primary btn-lg px-4 gap-3" onclick="window.location.href='https://docs.google.com/document/d/1VoQWoYFr-IoAFAUWFZxVgb3EfjUgUFbCg6ScLWUXrp8/edit?usp=sharing';">Resume button</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+          <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
         </div>
       </div>
     </div>
 
     <!-- ex. 2 features - hanging icons -->
     <div class="container px-4 py-5" id="hanging-icons">
-      <h2 class="pb-2 border-bottom text-center font-weight-bold">What i have done</h2>
+      <h2 class="sectionHead pb-2 border-bottom text-center font-weight-bold" >What I have done</h2>
       <div class="row g-5 py-5 row-cols-1 row-cols-lg-2"> 
         <!-- 2 columns by.... -->
         <!-- Start of the section for the project tile -->
+        <!-- Make them into cards?? -->
         <div class="elements col d-flex align-items-start">
           <!-- <div class="icon-square bg-light text-dark flex-shrink-0 me-3"> -->
             <!-- <img src="assets\green Earmark name.png"> -->
             <!-- <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg> -->
           <!-- </div> -->
-        <div>
+        
+          <div>
             <img width="200px" src="assets/green Earmark name.png" alt="Earmark logo"/>
             <h2 class="pb-1 pt-2">Earmark</h2>
             <p class="piece_descr">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
@@ -130,24 +132,19 @@
 
     <!-- Start code lang sect -->
     <div class="container px-4 py-5" id="Code_grid">
-      <h2 class="pb-2 border-bottom text-center font-weight-bold"> My Coding Languages</h2>
+      <h2 class="sectionHead pb-2 border-bottom text-center font-weight-bold"> My Coding Languages</h2>
   
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
-          <div>
-            <h4 class="fw-bold mb-0">Featured title</h4>
-            <p>Paragraph of text beneath the heading to explain the heading.</p>
-          </div>
+        <div class="col d-flex justify-content-center">
+          <img class="code_icon bi text-muted flex-shrink-0 me-3" src="assets/html_icon.png" alt="colored HTML icon"/>
         </div>
-
-      <div class="col d-flex align-items-start">
+      <div class="col d-flex justify-content-center">
         <img class="code_icon bi text-muted flex-shrink-0 me-3" src="assets/java_original_icon.png" alt="colopred java icon"/>
       </div>
-      <div class="col d-flex align-items-start">
+      <div class="col d-flex justify-content-center">
         <img class="code_icon bi text-muted flex-shrink-0 me-3" src="assets/python_color.png" alt="colored Python icon"/>
       </div>
-      <div class="col d-flex align-items-start">
+      <div class="col d-flex justify-content-center">
         <img class="code_icon bi text-muted flex-shrink-0 me-3" src="assets/flutter_icon.png" alt="Blue Flutter icon"/>
       </div>
         
@@ -164,8 +161,8 @@
 
     <!-- Footer format  -->
     <!-- justify-content-between  -->
-    <footer class="d-flex flex-wrap align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex justify-content-center align-items-center">
+    <footer class="d-flex flex-wrap justify-content-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex justify-content-center justify-content-center">
         <!-- <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
           <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
         </a> -->
