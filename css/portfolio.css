@@ -34,7 +34,7 @@ a.nav-item:hover{
 }
 
 img.earmark_pics {
-    width: 25vw;
+    width: 22vw;
 }
 
 #resumeButton{
@@ -48,6 +48,7 @@ img.earmark_pics {
 }
 
 .earmark_pics_div{
-
+    /* height: 75vh; */
 }
+
 
