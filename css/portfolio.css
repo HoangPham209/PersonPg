@@ -3,6 +3,7 @@ body {
     font: 100% Helvetica, sans-serif;
     /* main site blue */
     color: rgb(123 222 123);
+    background-color: black;
 }
 
 header#webHead {
