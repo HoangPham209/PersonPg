@@ -15,7 +15,12 @@
       }
 
       .nav-link:hover{
+        /* background-color: rgb(69, 215, 11); */
+      }
+
+      .nav-link:focus, .nav-link:hover {
         color: rgb(123 222 123);
+        /* color: white; */
       }
 
       .earmarkButton{
@@ -32,6 +37,13 @@
         background-color: rgb(130, 172, 130);
         border-color: rgb(90, 255, 90);
         box-shadow: 0 0 0 0.25rem rgba(49, 253, 56, 0.5);
+      }
+
+      .earmark_vids{
+          width: 30vw;
+          margin: 0 auto !important; 
+          float: none;
+          margin-bottom: 40px; 
       }
     </style>
 
@@ -140,18 +152,18 @@
       <!-- Start videos? -->
       <!-- <div class="vid_sect container px-4 py-5 overflow-scrol" style="max-height: 75vh;"> -->
         <div class="vid_sect row row-cols-lg-1 row-cols-lg-2 g-4 py-5">
-          <div class="col d-flex align-items-start mx-2">
+          <div class="earmark_vids col d-flex align-items-start mx-2">
             <!-- style="align-items: center;"   -->
-            <video height="600" controls> 
-                 
+            <video width="400" controls> 
               <source src="../assets/videos/Edit Budget-1.webm"
                       type="video/webm"> 
               Sorry, your browser doesn't support embedded videos.
           </video>
           </div>
           <!-- use carouselll! -->
-          <div  class="col d-flex align-items-end"> 
-            <video height="600" controls > 
+          
+          <div class="earmark_vids col d-flex align-items-end"> 
+            <video width="400" controls > 
                        
                 <source src="../assets/videos/Preview Of Screens-2.webm"
                         type="video/webm">

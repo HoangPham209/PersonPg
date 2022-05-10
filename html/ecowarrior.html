@@ -22,13 +22,31 @@
       }
       
       .earmarkButton:hover{
-        background-color: rgb(148, 112, 39);
+        /* background-color: rgb(148, 112, 39); */
+      }
+
+      .nav-link:focus, .nav-link:hover {
+        color: rgb(252 172 53);
+        /* color: white; */
       }
       
       .earmarkButton:focus {
         background-color: rgb(172, 155, 130);
         border-color: rgb(255, 203, 90);
         box-shadow: 0 0 0 0.25rem rgba(253, 188, 49, 0.5);
+      }
+
+      .earmark_pics_div .card{
+        width: 80vw;
+        /* for centering */
+        margin: 0 auto; 
+        float: none;
+        margin-bottom: 40px; 
+      }
+
+      img.earmark_pics {
+          height: 80vh;
+          width: 60vw;
       }
     </style>
 
@@ -91,7 +109,8 @@
       
     <!-- USE PICS of code snippetss! -->
       <!-- Start of the image sections! -->
-    <div class="row text-center row-cols-1 row-cols-md-2 row-cols-md-3 g-4 py-5">
+    <!-- <div class="row text-center row-cols-1 row-cols-md-2 row-cols-md-3 g-4 py-5"> -->
+    <div class="text-center g-4 py-5 justify-content-center" >
       <!-- <div class="earmark_pics_div "> 
 
         row d-flex align-items-start">  
@@ -122,7 +141,7 @@
     
     <div class="col earmark_pics_div ">
       <div class="card shadow-sm d-flex ">
-        <img class="earmark_pics" src="../assets/ecoW_3 - example....png" alt="Firestore example screenshot">
+        <img class="earmark_pics" src="../assets/ecoW_3 - example....png" style="width: 80vw;height: 70vh;" alt="Firestore example screenshot">
         <div class="card-body earmark_div_card">
           <p class="card-text">Google Firestore example. This is an example of what the database would look like with Data in the NoSQL database.
             Querying would be easier on here as well as adding and deleting. </p>

@@ -57,9 +57,9 @@ a.nav-item:hover{
         100% {opacity: 100%;}
     }
 
-.vid_sect{
-    width: 30vw;
-}
+/* .vid_sect{ */
+    /* width: 30vw; */
+
 
 
 
@@ -110,6 +110,8 @@ img.earmark_pics {
 
 .earmark_pics_div .card{
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     /* background-color: black; */
 }
 .earmark_div_card{
