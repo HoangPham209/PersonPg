@@ -1,15 +1,21 @@
-// let btn = document.querySelector(".btn");
-// let item = document.querySelector(".box");
+var upbutton = document.getElementById("upButton");
 
-// document.onload = () => {
-//     item.classList.toggle('animate');
-//     item.addEventListener('animationend', animationEndCallback);
-// };
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-// let animationEndCallback = (e) => {
-//     item.removeEventListener('animationend', animationEndCallback);
-//     item.classList.remove('animate');
-// }
+function scrollFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    upbutton.style.display = "block";
+  } else {
+    upbutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 // animation for sliding and scroll
 function reveal() {
